@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container, Row, Col } from "react-bootstrap";
+import "./App.css";
+import JobTitle from "./JobTitle";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <section>
+            <Container fluid className="home-section" id="home">
+                <Container className="home-content">
+                    <Row>
+                        <Col md={7} className="home-header">
+                            <h1 className="heading">Hi There!
+                                <span
+                                    className="wave"
+                                    role="img"
+                                    aria-labelledby="wave"
+                                >
+                                    👋🏻
+                                </span>
+                            </h1>
+
+                            <h1 className="heading-name">
+								I'm{" "}
+                                <strong className="main-name">
+                                	Monkolsophearith Prum
+                                </strong>
+                            </h1>
+
+                            <div>
+                                <JobTitle />
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
+        </section>
+    );
 }
 
 export default App;
