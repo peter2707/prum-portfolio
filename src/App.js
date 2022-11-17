@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./App.css";
-import JobTitle from "./JobTitle";
+import JobTitle from "./components/JobTitle";
 
 function App() {
     return (
