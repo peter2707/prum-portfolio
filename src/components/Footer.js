@@ -5,7 +5,8 @@ import { FaDiscord, FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
     return (
-        <Container className="bg-dark text-light">
+        <div className="bg-dark text-light">
+            <Container>
             <Row>
                 <Col md="6">
                     <Link to="/"><FaDiscord size={30} color={"white"}/></Link>
@@ -17,8 +18,8 @@ function Footer() {
                     <small>Copyright © 2022 Monkolsophearith Prum</small>
                 </Col>
             </Row>
-            
         </Container>
+        </div>
     );
 }
 
