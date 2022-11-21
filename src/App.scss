@@ -17,9 +17,11 @@
     width: 100%;
 }
 
-section,
+.app,
+.home,
 .navbar,
-.footer {
+.footer,
+.cp-transition__squares-wrapper {
     background-color: #f7fafc;
     padding: 20px;
     transition: background-color 0.3s ease-in;
@@ -30,31 +32,29 @@ section,
     margin-right: 20px;
 }
 
-#container {
+.app {
     display: flex;
     width: 100%;
     align-items: center;
     flex-direction: column;
+}
 
-    h1 {
-        padding: 0;
-        margin: 0 0 10px 0;
-    }
-
-    p {
-        opacity: 0.8;
-    }
+.home{
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .dark-mode {
-    color: #f7fafc;
     .icon {
         color: #f7fafc;
     }
 
-    section,
+    .app,
+    .home,
     .navbar,
-    .footer {
+    .footer,
+    .cp-transition__squares-wrapper {
+        color: #f7fafc;
         background-color: #212529;
     }
 
