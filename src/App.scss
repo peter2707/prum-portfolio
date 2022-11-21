@@ -1,0 +1,105 @@
+// Setup
+//-------------------------------------
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+// Main Styles
+//-------------------------------------
+
+#root {
+    height: 100vh;
+    width: 100%;
+}
+
+section,
+.navbar,
+.footer {
+    background-color: #f7fafc;
+    padding: 20px;
+    transition: background-color 0.3s ease-in;
+}
+
+.icon {
+    color: #212529;
+    margin-right: 20px;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        padding: 0;
+        margin: 0 0 10px 0;
+    }
+
+    p {
+        opacity: 0.8;
+    }
+}
+
+.dark-mode {
+    color: #f7fafc;
+    .icon {
+        color: #f7fafc;
+    }
+
+    section,
+    .navbar,
+    .footer {
+        background-color: #212529;
+    }
+
+    #toggle {
+        background-color: #f7fafc;
+
+        .toggle-inner {
+            background-color: #212529;
+        }
+    }
+}
+
+// Wave Animation
+//-------------------------------------
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

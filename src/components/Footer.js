@@ -5,14 +5,14 @@ import { FaDiscord, FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
     return (
-        <div className="bg-dark text-light">
+        <div className="footer">
             <Container>
             <Row>
                 <Col md="6">
-                    <Link to="/"><FaDiscord size={30} color={"white"}/></Link>
-                    <Link to="/"><FaLinkedin size={30} color={"white"}/></Link>
-                    <Link to="/"><FaTwitter size={30} color={"white"}/></Link>
-                    <Link to="/"><FaGithub size={30} color={"white"}/></Link>
+                    <Link className="icon" to="/"><FaDiscord size={30}/></Link>
+                    <Link className="icon" to="/"><FaLinkedin size={30}/></Link>
+                    <Link className="icon" to="/"><FaTwitter size={30}/></Link>
+                    <Link className="icon" to="/"><FaGithub size={30}/></Link>
                 </Col>
                 <Col md="6" className="text-end">
                     <small>Copyright © 2022 Monkolsophearith Prum</small>
