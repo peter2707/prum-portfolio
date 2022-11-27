@@ -9,10 +9,10 @@ function Footer() {
             <Container>
             <Row>
                 <Col md="6">
-                    <Link className="icon" to="/"><FaDiscord size={30}/></Link>
-                    <Link className="icon" to="/"><FaLinkedin size={30}/></Link>
-                    <Link className="icon" to="/"><FaTwitter size={30}/></Link>
-                    <Link className="icon" to="/"><FaGithub size={30}/></Link>
+                    <Link to="/"><FaDiscord className="social-links" size={30}/></Link>
+                    <Link to="/"><FaLinkedin className="social-links" size={30}/></Link>
+                    <Link to="/"><FaTwitter className="social-links" size={30}/></Link>
+                    <Link to="/"><FaGithub className="social-links" size={30}/></Link>
                 </Col>
                 <Col md="6" className="text-end">
                     <small>Copyright © 2022 Monkolsophearith Prum</small>

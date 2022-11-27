@@ -12,7 +12,7 @@ const Home = () => {
             </h1>
 
             <h1 className="heading-name">
-                I'm <strong className="main-name">Monkolsophearith Prum</strong>
+                I'm <strong className="author-name">Monkolsophearith Prum</strong>
             </h1>
             <h4><JobTitle /></h4>
         </div>

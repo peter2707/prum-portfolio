@@ -84,6 +84,7 @@ function NavigationBar() {
                 <Nav>
                     <FormGroup>
                         <FormControlLabel
+                            
                             control={
                                 <MaterialUISwitch sx={{ m: 1 }} />
                             }

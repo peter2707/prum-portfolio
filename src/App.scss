@@ -6,7 +6,7 @@
 *:after {
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 // Main Styles
@@ -22,14 +22,9 @@
 .navbar,
 .footer,
 .cp-transition__squares-wrapper {
-    background-color: #f7fafc;
+    background-color: #F7FAFC;
     padding: 20px;
     transition: background-color 0.3s ease-in;
-}
-
-.icon {
-    color: #212529;
-    margin-right: 20px;
 }
 
 .app {
@@ -39,27 +34,37 @@
     flex-direction: column;
 }
 
-.home{
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
+
+// Dark Mode
+//-------------------------------------
 
 .dark-mode {
-    .icon {
-        color: #f7fafc;
+    .social-links {
+        color: #F7FAFC;
     }
 
     .app,
     .home,
     .navbar,
     .footer,
-    .cp-transition__squares-wrapper {
-        color: #f7fafc;
+    .cp-transition__squares-wrapper,
+    .modal__info,
+    .modal {
+        color: #F7FAFC;
         background-color: #212529;
+    }
+    .listing__content,
+    .listing {
+        background-color: #2b2b2b;
+        box-shadow: none;
+    }
+    .listing__type {
+        background-color: #F7FAFC;
+        color: #212529;
     }
 
     #toggle {
-        background-color: #f7fafc;
+        background-color: #F7FAFC;
 
         .toggle-inner {
             background-color: #212529;
@@ -103,3 +108,67 @@
         transform: rotate(0deg);
     }
 }
+
+// Projects listing
+//-------------------------------------
+.projects {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cacaca;
+    border-radius: 5px;
+}
+
+// Links and Buttons
+//-------------------------------------
+
+.social-links {
+    color: #212529;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.social-links:hover{
+    transform: translateY(-10px);
+}
+
+
+// Headings
+//-------------------------------------
+
+.heading {
+    margin-top: 100px;
+}
+
+.author-name {
+    border: 10px solid none;
+    background: linear-gradient(60deg, #F79533, #F37055, #FF2361, #A500A5, #2051B3, #55D4FF, #07B38B, #55FF99);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 2;
+    animation: phase 10s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+}
+@keyframes phase {
+    0% {
+        background-position: 15% 0;
+    }
+    50% {
+        background-position: 90% 100%;
+    }
+    100% {
+        background-position: 15% 0;
+    }
+}
+
