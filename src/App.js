@@ -11,10 +11,10 @@ function App() {
             <Home/>
             <h1 className="heading">Projects</h1>
             <Projects/>
-            <h1 className="heading">About</h1>
-            <About/>
             <h1 className="heading">Timeline</h1>
             <Timeline/>
+            <h1 className="heading">About</h1>
+            <About/>
         </div>
     );
 }

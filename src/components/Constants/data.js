@@ -54,3 +54,24 @@ export const projects = [
         id: 6,
     },
 ];
+
+export const timeline = [
+    {
+        title: "Present",
+        cardTitle: "Master of IT in Cloud and Mobile Computing",
+        cardSubtitle: "Swinburne University of Technology",
+        cardDetailedText: "",
+    },
+    {
+        title: "2019-2021",
+        cardTitle: "Bachelor of IT in Software Development",
+        cardSubtitle: "Royal Melbourne Institute of Technology (RMIT)",
+        cardDetailedText: "",
+    },
+    {
+        title: "2018",
+        cardTitle: "Diploma of IT",
+        cardSubtitle: "Central Queensland University",
+        cardDetailedText: "",
+    },
+]
