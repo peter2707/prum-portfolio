@@ -64,7 +64,7 @@
     text-decoration: none;
     text-align: center;
     padding-top: 11px;
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .modal__btn:hover{

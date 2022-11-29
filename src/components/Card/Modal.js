@@ -65,7 +65,7 @@ const Modal = ({ data, close }) => {
                     <p className="modal__description">{description}</p>
                 </motion.div>
                 <motion.div className="modal__row" variants={modalRowVariants}>
-                    <a href={source} className="modal__btn">Source Code <FaGithub size={25}/></a>
+                    <a href={source} className="modal__btn"><FaGithub size={25}/><span className="ms-2">Source Code</span></a>
                 </motion.div>
                 <motion.button
                     className="modal__close-wrapper"

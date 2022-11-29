@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Timeline from "./components/Timeline";
 import "./App.scss";
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
             <Projects/>
             <h1 className="heading">About</h1>
             <About/>
+            <h1 className="heading">Timeline</h1>
+            <Timeline/>
         </div>
     );
 }
