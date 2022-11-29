@@ -17,10 +17,10 @@ const About = () => {
                     I'm Monkolsophearith (Peter). I live in Melbourne, Australia
                     and currently doing my Master's degree at Swinburne
                     University. My field of focus is Software Engineering, Front
-                    and Back End Development, and Mobile App Development. I have
+                    & Back End Development, and Mobile App Development. I have
                     developed many projects over the years that allows me to
-                    stay up to date with new tools and technologies, building up
-                    my coding skills and experience, and preparing myself to
+                    stay up to date with new tools & technologies, building up
+                    my coding skills & experience, and preparing myself to
                     enter the workforce.
                 </p>
                 <p className="about-text">

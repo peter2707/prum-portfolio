@@ -9,11 +9,11 @@ const Timeline = () => {
                 items={timeline}
                 mode="VERTICAL_ALTERNATING"
                 theme={{
-                    primary: "black",
+                    primary: "grey",
                     secondary: "red",
-                    cardBgColor: "grey",
-                    cardForeColor: "white",
-                    titleColor: "black",
+                    cardBgColor: "white",
+                    cardForeColor: "black",
+                    titleColor: "grey",
                     titleColorActive: "white",
                 }}
             />

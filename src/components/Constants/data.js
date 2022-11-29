@@ -1,7 +1,7 @@
 export const projects = [
     {
         imageUrl: "../images/1.png",
-        title: "JobMatch",
+        title: "Job Match",
         description:
             "Head of development team. Designed and developed Front-End, Back-End with HTML, CSS, JS, and PHP. Implemented Matching algorithm, password recovery system using SendGrid, administration side, analysis features for admins, web server with Heroku, and added rich text editor for employer side. Constructed database using MySQL and phpMyAdmin.",
         tags: ["FaPhp", "FaHtml5", "FaCss3", "SiJavascript", "SiMysql"],
@@ -46,10 +46,10 @@ export const projects = [
     },
     {
         imageUrl: "../images/1.png",
-        title: "Heart Failures Prediction",
+        title: "Inspire Discord Bot",
         description:
             "Preprocessed and explored the relationship between each attributes in dataset. Applied suitable techniques to clean, process and analysed the dataset. Perform in-dept investigation on dataset and solve the root cause of problem. Using ML techniques to train the data model to solve the data science problem.",
-        tags: ["FaPython", "SiJupyter"],
+        tags: ["FaPython", "SiReplit", "SiFlask"],
         source: "https://github.com/peter2707/s3848409-s3761982-cosc2670-assignment2.com",
         id: 6,
     },
@@ -57,19 +57,19 @@ export const projects = [
 
 export const timeline = [
     {
-        title: "Present",
+        title: "2022 - Present",
         cardTitle: "Master of IT in Cloud and Mobile Computing",
         cardSubtitle: "Swinburne University of Technology",
         cardDetailedText: "",
     },
     {
-        title: "2019-2021",
+        title: "2019 - 2021",
         cardTitle: "Bachelor of IT in Software Development",
         cardSubtitle: "Royal Melbourne Institute of Technology (RMIT)",
         cardDetailedText: "",
     },
     {
-        title: "2018",
+        title: "2018 - 2019",
         cardTitle: "Diploma of IT",
         cardSubtitle: "Central Queensland University",
         cardDetailedText: "",
