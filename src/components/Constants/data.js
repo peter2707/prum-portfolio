@@ -1,6 +1,6 @@
 export const projects = [
     {
-        imageUrl: "../images/1.png",
+        imageUrl: "../images/JobMatchScreenshot.jpg",
         title: "Job Match",
         description:
             "Head of development team. Designed and developed Front-End, Back-End with HTML, CSS, JS, and PHP. Implemented Matching algorithm, password recovery system using SendGrid, administration side, analysis features for admins, web server with Heroku, and added rich text editor for employer side. Constructed database using MySQL and phpMyAdmin.",
@@ -18,7 +18,7 @@ export const projects = [
         id: 2,
     },
     {
-        imageUrl: "../images/1.png",
+        imageUrl: "../images/EmployeeBookingScreenshot.jpg",
         title: "Employee Booking System",
         description:
             "Built Back-End and Front-End with Java + Java Swing using OOP concept and MVC structure. Constructed database with SQLite",
@@ -27,7 +27,7 @@ export const projects = [
         id: 3,
     },
     {
-        imageUrl: "../images/1.png",
+        imageUrl: "../images/QwirkleScreenshot.jpg",
         title: "Qwirkle with C++",
         description:
             "Designed and implemented console interface and various input checks using C++. Created objects, methods, vectors, pointers, and memory management. Implement game logic and scoring algorithm.",
@@ -36,7 +36,7 @@ export const projects = [
         id: 4,
     },
     {
-        imageUrl: "../images/1.png",
+        imageUrl: "../images/ExpenseTrackerScreenshot.png",
         title: "Expense Tracker iOS",
         description:
             "Designed UI/UX with InVision Studio, Implemented Front-End using storyboard. Built Back-End methods using Swift. Some features are: Add&Remove expenses base on their category, Set user's name, profile picture, monthly budget, and graph analysis.",
@@ -45,7 +45,7 @@ export const projects = [
         id: 5,
     },
     {
-        imageUrl: "../images/1.png",
+        imageUrl: "../images/InspireBotScreenshot.jpg",
         title: "Inspire Discord Bot",
         description:
             "Preprocessed and explored the relationship between each attributes in dataset. Applied suitable techniques to clean, process and analysed the dataset. Perform in-dept investigation on dataset and solve the root cause of problem. Using ML techniques to train the data model to solve the data science problem.",

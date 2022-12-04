@@ -4,6 +4,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import logoLight from "../assets/logo-black.svg";
 import logoDark from "../assets/logo-white.svg";
 
+import Headroom from "react-headroom";
+
 import { styled } from "@mui/material/styles";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -76,28 +78,32 @@ function NavigationBar() {
         }
     }, [darkMode]);
     return (
-        <Navbar className="navbar">
-            <Container>
-                <Navbar.Brand href="#home">
-                    <img id="logo" height={100} width={150} alt="PMR Logo" />
-                </Navbar.Brand>
-                <Nav>
-                    <FormGroup>
-                        <FormControlLabel
-                            
-                            control={
-                                <MaterialUISwitch sx={{ m: 1 }} />
-                            }
-                            onClick={() =>
-                                darkMode === false
-                                    ? setDarkMode(true)
-                                    : setDarkMode(false)
-                            }
+        <Headroom>
+            <Navbar className="navbar">
+                <Container>
+                    <Navbar.Brand href="#home">
+                        <img
+                            id="logo"
+                            height={100}
+                            width={150}
+                            alt="PMR Logo"
                         />
-                    </FormGroup>
-                </Nav>
-            </Container>
-        </Navbar>
+                    </Navbar.Brand>
+                    <Nav>
+                        <FormGroup>
+                            <FormControlLabel
+                                control={<MaterialUISwitch sx={{ m: 1 }} />}
+                                onClick={() =>
+                                    darkMode === false
+                                        ? setDarkMode(true)
+                                        : setDarkMode(false)
+                                }
+                            />
+                        </FormGroup>
+                    </Nav>
+                </Container>
+            </Navbar>
+        </Headroom>
     );
 }
 

@@ -1,14 +1,17 @@
 import React from "react";
+import Zoom from "react-reveal/Zoom";
 import Card from "./Card";
 import { projects } from "./Constants/data";
 
 const Project = () => {
     return (
-        <div className="projects">
-            {projects.map((item) => (
-                <Card data={item} key={item.id} />
-            ))}
-        </div>
+        <Zoom bottom>
+            <div className="projects">
+                {projects.map((item) => (
+                    <Card data={item} key={item.id} />
+                ))}
+            </div>
+        </Zoom>
     );
 };
 

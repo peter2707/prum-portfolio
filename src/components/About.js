@@ -5,10 +5,10 @@ import { IoMailSharp } from "react-icons/io5";
 const About = () => {
     return (
         <div className="about">
-            <div class="author_pic">
-                <div class="spin-container">
-                    <div class="shape">
-                        <div class="bd"></div>
+            <div className="author_pic">
+                <div className="spin-container">
+                    <div className="shape">
+                        <div className="bd"></div>
                     </div>
                 </div>
             </div>
