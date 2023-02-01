@@ -39,7 +39,7 @@ const Modal = ({ data, close }) => {
         >
             <motion.img
                 className="modal__image"
-                alt="real estate mansion"
+                alt="project picture"
                 src={imageUrl}
                 variants={imageVariants}
             ></motion.img>

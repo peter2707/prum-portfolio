@@ -16,7 +16,7 @@ const Listing = ({ data, open }) => {
                 <div className="listing__image-container">
                     <img
                         className="listing__image"
-                        alt="real estate mansion"
+                        alt="project img"
                         src={imageUrl}
                     />
                 </div>
