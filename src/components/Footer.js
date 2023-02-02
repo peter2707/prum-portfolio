@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaDiscord, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
@@ -9,18 +8,18 @@ function Footer() {
             <Container>
                 <Row>
                     <Col md="6">
-                        <Link to="/">
+                        <a href="https://discordapp.com/users/283908146999721984">
                             <FaDiscord className="social-links" size={30} />
-                        </Link>
-                        <Link to="/">
+                        </a>
+                        <a href="https://www.linkedin.com/in/monkolsophearith-prum-b49a11247">
                             <FaLinkedin className="social-links" size={30} />
-                        </Link>
-                        <Link to="/">
+                        </a>
+                        <a href="https://twitter.com/pmr_2707">
                             <FaTwitter className="social-links" size={30} />
-                        </Link>
-                        <Link to="/">
+                        </a>
+                        <a href="https://github.com/peter2707">
                             <FaGithub className="social-links" size={30} />
-                        </Link>
+                        </a>
                     </Col>
                     <Col md="6" className="text-end">
                         <small>Copyright © 2022 Monkolsophearith Prum</small>

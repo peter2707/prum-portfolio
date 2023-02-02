@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { IoMailSharp } from "react-icons/io5";
 
 const About = () => {
@@ -30,9 +29,9 @@ const About = () => {
                     please don't hesitate to reach out.
                 </p>
                 <br />
-                <Link to="." className="send-message-btn">
+                <a href = "mailto: prummmonkolsophearith@gmail.com" className="send-message-btn">
                     <IoMailSharp className="mb-1" /> Get in touch
-                </Link>
+                </a>
             </div>
         </div>
     );

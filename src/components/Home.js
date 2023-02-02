@@ -3,7 +3,7 @@ import JobTitle from "./JobTitle";
 
 const Home = () => {
     return (
-        <div className="home">
+        <div className="home" id="home">
             <div>
                 <h1>
                     Hi There!{" "}
