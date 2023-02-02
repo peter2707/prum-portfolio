@@ -21,6 +21,7 @@ const Home = () => {
                 <h4>
                     <JobTitle />
                 </h4>
+                <div className="scroll-down"></div>
             </div>
         </div>
     );

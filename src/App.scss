@@ -67,6 +67,12 @@
             background-color: #212529;
         }
     }
+    .scroll-down {
+        border: 2px solid #f7fafc;
+        &::before {
+            background-color: #f7fafc;
+        }
+    }
 }
 
 // Wave Animation
@@ -140,7 +146,7 @@
     transform: translateY(-10px);
 }
 
-// Headings
+// Home
 //-------------------------------------
 
 .heading {
@@ -169,10 +175,56 @@
     }
 }
 
+.scroll-down {
+    border: 2px solid #212529;
+    border-radius: 20px;
+    bottom: 60px;
+    height: 50px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 30px;
+
+    &::before {
+        animation: scrollDownAnimation 2s infinite;
+        background-color: #212529;
+        border-radius: 100%;
+        content: "";
+        height: 6px;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        width: 6px;
+    }
+}
+
+@keyframes scrollDownAnimation {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0;
+        transform: translate(0, 20px);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 // About Section
 //-------------------------------------
 
-.about{
+.about {
     margin-bottom: 100px;
     max-width: 1300px;
 }
@@ -378,8 +430,7 @@
     max-width: 1500px;
 }
 
-
-.home{
+.home {
     height: calc(100vh - 200px);
     display: flex;
     align-items: center;
