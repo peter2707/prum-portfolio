@@ -6,8 +6,8 @@ function JobTitle() {
         <Typewriter
             options={{
                 strings: [
-                    "Full Stack Developer",
-                    "MERN Stack Developer",
+                    "Software Engineer",
+                    "Web Developer",
                     "iOS App Engineer",
                     "DevOps Engineer",
 					"Data Scientist",

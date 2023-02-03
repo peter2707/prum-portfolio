@@ -63,6 +63,12 @@ export const timeline = [
         cardDetailedText: "",
     },
     {
+        title: "2020 - Present",
+        cardTitle: "Software Engineer",
+        cardSubtitle: "Cambodian Mine Action Authority",
+        cardDetailedText: "",
+    },
+    {
         title: "2019 - 2021",
         cardTitle: "Bachelor of IT in Software Development",
         cardSubtitle: "Royal Melbourne Institute of Technology (RMIT)",
