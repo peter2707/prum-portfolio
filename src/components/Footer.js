@@ -22,7 +22,7 @@ function Footer() {
                         </a>
                     </Col>
                     <Col md="6" className="text-end">
-                        <small>Copyright © 2022 Monkolsophearith Prum</small>
+                        <small>Copyright © 2023 Monkolsophearith Prum</small>
                     </Col>
                 </Row>
             </Container>
