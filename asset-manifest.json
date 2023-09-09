@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/prum-portfolio/static/css/main.51005020.css",
-    "main.js": "/prum-portfolio/static/js/main.2dad8e3b.js",
+    "main.js": "/prum-portfolio/static/js/main.dd6f1466.js",
     "static/media/author.jpg": "/prum-portfolio/static/media/author.1636cd6a0a1a11793ddc.jpg",
     "static/media/logo-black.svg": "/prum-portfolio/static/media/logo-black.05d1d1cbcf935795aa98e92c6ab832f7.svg",
     "static/media/logo-white.svg": "/prum-portfolio/static/media/logo-white.4fa95c6cbcc6b7e653c0f317ea104f28.svg",
     "index.html": "/prum-portfolio/index.html",
     "main.51005020.css.map": "/prum-portfolio/static/css/main.51005020.css.map",
-    "main.2dad8e3b.js.map": "/prum-portfolio/static/js/main.2dad8e3b.js.map"
+    "main.dd6f1466.js.map": "/prum-portfolio/static/js/main.dd6f1466.js.map"
   },
   "entrypoints": [
     "static/css/main.51005020.css",
-    "static/js/main.2dad8e3b.js"
+    "static/js/main.dd6f1466.js"
   ]
 }
