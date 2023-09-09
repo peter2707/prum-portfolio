@@ -2,7 +2,7 @@
 	"name": "prum-portfolio",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://www.peterprum.com",
+	"homepage": "https://peter2707.github.io/prum-portfolio",
 	"dependencies": {
 		"@emotion/react": "^11.10.5",
 		"@emotion/styled": "^11.10.5",
@@ -12,6 +12,7 @@
 		"@testing-library/user-event": "^13.5.0",
 		"bootstrap": "^5.2.2",
 		"framer-motion": "^7.6.7",
+		"gh-pages": "^6.0.0",
 		"react": "^18.2.0",
 		"react-bootstrap": "^2.6.0",
 		"react-chrono": "^1.19.2",
@@ -27,6 +28,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",

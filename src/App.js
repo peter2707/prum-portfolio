@@ -1,6 +1,5 @@
 import React from "react";
 import Home from "./components/Home";
-import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Timeline from "./components/Timeline";
@@ -10,8 +9,6 @@ function App() {
     return (
         <div className="app">
             <Home/>
-            <h1 className="heading">Experience</h1>
-            <Experience/>
             <h1 className="heading">Projects</h1>
             <Projects/>
             <h1 className="heading">Timeline</h1>
