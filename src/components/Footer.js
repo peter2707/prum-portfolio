@@ -11,7 +11,7 @@ function Footer() {
                         <a href="https://discordapp.com/users/283908146999721984">
                             <FaDiscord className="social-links" size={30} />
                         </a>
-                        <a href="https://www.linkedin.com/in/monkolsophearith-prum-b49a11247">
+                        <a href="https://www.linkedin.com/in/monkolsophearith-prum">
                             <FaLinkedin className="social-links" size={30} />
                         </a>
                         <a href="https://twitter.com/pmr_2707">
@@ -22,7 +22,7 @@ function Footer() {
                         </a>
                     </Col>
                     <Col md="6" className="text-end">
-                        <small>Copyright © 2023 Monkolsophearith Prum</small>
+                        <small>Copyright © 2024 Monkolsophearith Prum</small>
                     </Col>
                 </Row>
             </Container>

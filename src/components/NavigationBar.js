@@ -81,7 +81,7 @@ function NavigationBar() {
         <Headroom>
             <Navbar className="navbar">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="home">
                         <img
                             id="logo"
                             height={100}
