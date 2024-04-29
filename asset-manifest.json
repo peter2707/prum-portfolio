@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/prum-portfolio/static/css/main.51005020.css",
-    "main.js": "/prum-portfolio/static/js/main.752b15ba.js",
+    "main.css": "/prum-portfolio/static/css/main.acdcfa07.css",
+    "main.js": "/prum-portfolio/static/js/main.f555e3b8.js",
     "static/media/author.jpg": "/prum-portfolio/static/media/author.1636cd6a0a1a11793ddc.jpg",
-    "static/media/logo-black.svg": "/prum-portfolio/static/media/logo-black.05d1d1cbcf935795aa98e92c6ab832f7.svg",
-    "static/media/logo-white.svg": "/prum-portfolio/static/media/logo-white.4fa95c6cbcc6b7e653c0f317ea104f28.svg",
+    "static/media/logo-black.svg": "/prum-portfolio/static/media/logo-black.379dca1e8344aefa741744aa42e8e9b8.svg",
+    "static/media/logo-white.svg": "/prum-portfolio/static/media/logo-white.404f2c98b96dfd016f4e97a3dfb61010.svg",
     "index.html": "/prum-portfolio/index.html",
-    "main.51005020.css.map": "/prum-portfolio/static/css/main.51005020.css.map",
-    "main.752b15ba.js.map": "/prum-portfolio/static/js/main.752b15ba.js.map"
+    "main.acdcfa07.css.map": "/prum-portfolio/static/css/main.acdcfa07.css.map",
+    "main.f555e3b8.js.map": "/prum-portfolio/static/js/main.f555e3b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.51005020.css",
-    "static/js/main.752b15ba.js"
+    "static/css/main.acdcfa07.css",
+    "static/js/main.f555e3b8.js"
   ]
 }
