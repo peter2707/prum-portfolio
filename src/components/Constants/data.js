@@ -63,7 +63,7 @@ export const projects = [
         id: 7,
     },
     {
-        imageUrl: "images/expense_tracker_cover.png",
+        imageUrl: "images/expense_tracker_cover.jpg",
         title: "Expense Tracker iOS",
         description:
             "Designed UI/UX with InVision Studio, Implemented Front-End using storyboard. Built Back-End methods using Swift. Some features are: Add&Remove expenses base on their category, Set user's name, profile picture, monthly budget, and graph analysis.",
