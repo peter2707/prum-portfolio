@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/prum-portfolio/static/css/main.151e6dc1.css",
-    "main.js": "/prum-portfolio/static/js/main.519a120c.js",
+    "main.css": "/prum-portfolio/static/css/main.75188a61.css",
+    "main.js": "/prum-portfolio/static/js/main.fe619995.js",
     "static/media/author.jpg": "/prum-portfolio/static/media/author.1636cd6a0a1a11793ddc.jpg",
     "static/media/logo-black.svg": "/prum-portfolio/static/media/logo-black.379dca1e8344aefa741744aa42e8e9b8.svg",
     "static/media/logo-white.svg": "/prum-portfolio/static/media/logo-white.404f2c98b96dfd016f4e97a3dfb61010.svg",
     "index.html": "/prum-portfolio/index.html",
-    "main.151e6dc1.css.map": "/prum-portfolio/static/css/main.151e6dc1.css.map",
-    "main.519a120c.js.map": "/prum-portfolio/static/js/main.519a120c.js.map"
+    "main.75188a61.css.map": "/prum-portfolio/static/css/main.75188a61.css.map",
+    "main.fe619995.js.map": "/prum-portfolio/static/js/main.fe619995.js.map"
   },
   "entrypoints": [
-    "static/css/main.151e6dc1.css",
-    "static/js/main.519a120c.js"
+    "static/css/main.75188a61.css",
+    "static/js/main.fe619995.js"
   ]
 }
