@@ -6,7 +6,7 @@ const Certifications = () => {
     return (
         <div className="certifications mt-3">
             {certifications.map((cert, index) => (
-                <div key={index} className="mb-5">
+                <div key={index} className="mb-3">
                     <div className="cert-title">
                         <Row>
                             <Col sm={10}>
