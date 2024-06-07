@@ -457,3 +457,17 @@
 .card-title, .card-subtitle, .card-text{
     margin: 10px;
 }
+
+
+// Certifications Section
+//-------------------------------------
+
+.certifications{
+    width: 40%;
+}
+
+@media only screen and (max-width: 1299px) {
+    .certifications{
+        width: 70%;
+    }
+}

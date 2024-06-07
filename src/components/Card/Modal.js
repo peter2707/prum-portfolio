@@ -31,6 +31,13 @@ const Modal = ({ data, close }) => {
         closed: { opacity: 0, x: "10%" },
     };
 
+    // Function to split the description into an array of lines
+    const splitDescription = () => {
+        return description.split('\n').map((line, index) => (
+            <li key={index}>• {line.trim()}<br/><br/></li>
+        ));
+    };
+
     return (
         <motion.div
             className="modal"
@@ -62,7 +69,7 @@ const Modal = ({ data, close }) => {
                     className="modal__description-wrapper"
                     variants={modalRowVariants}
                 >
-                    <p className="modal__description">{description}</p>
+                    <ul className="modal__description"> {splitDescription()}</ul>
                 </motion.div>
                 <motion.div className="modal__row" variants={modalRowVariants}>
                     <a href={source} className="modal__btn"><FaGithub size={25}/><span className="ms-2">Source Code</span></a>

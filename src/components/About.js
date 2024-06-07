@@ -19,7 +19,7 @@ const About = () => {
                     academic journey with a diploma in Information and
                     Communications Technology (ICT) from Central Queensland
                     University, followed by a Bachelor's in IT at RMIT
-                    University. Currently, I'm pursuing a Master's degree in IT
+                    University. Currently in my part time, I'm pursuing a Master's degree in IT
                     with a focus on Cloud Computing at Swinburne University.
                 </p>
                 <p className="about-text">
